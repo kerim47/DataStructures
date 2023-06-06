@@ -6,16 +6,15 @@
 
 // Dugum tanımlamaları
 
+typedef struct NODE Node; 
 struct NODE{
 
 	int value;
 	struct NODE* next;
-}NODE;
-typedef struct NODE Node; 
+};
 
 // Fonksiyon prototipleri
 void add(Node*, int);
 void print(Node*);
 Node* place();
-#include "linked_list.c"
 #endif
