@@ -22,7 +22,7 @@ Dizi veri yapısı, ardışık bellek bloklarını kullanarak aynı veri türün
 Bağlı liste veri yapısı, düğümlerin birbirine bağlı olduğu bir yapıdır. Her düğüm, bir veri parçası ve bir sonraki düğümün referansını içerir. Bu bölümde bağlı liste veri yapısıyla ilgili yöntemler ve açıklamalar yer almaktadır.
 
 ![DoublyLinkedList](https://github.com/kerim47/DataStructures/blob/main/CSharp/VeriYapilari/DataStructures/pictures/DoublyLinkedList.png)
-![SinglyLinkedList](https://github.com/kerim47/DataStructures/blob/main/CSharp/VeriYapilari/DataStructures/pictures/DoublyLinkedList.png)
+![SinglyLinkedList](https://github.com/kerim47/DataStructures/blob/main/CSharp/VeriYapilari/DataStructures/pictures/SinglyLinkedList.png)
 
 ## Yığın (Stack)
 
