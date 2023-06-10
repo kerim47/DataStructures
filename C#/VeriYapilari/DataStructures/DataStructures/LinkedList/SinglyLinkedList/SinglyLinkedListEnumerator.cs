@@ -2,7 +2,7 @@
 
 namespace DataStructures.LinkedList.SinglyLinkedList
 {
-    internal class SinglyLinkedListEnumerator<T> : IEnumerator<T>
+    public class SinglyLinkedListEnumerator<T> : IEnumerator<T>
     {
         /// <summary>
         /// Girilcek olan dugumun basini tutar.
@@ -48,7 +48,7 @@ namespace DataStructures.LinkedList.SinglyLinkedList
         /// <returns></returns>
         public bool MoveNext()
         {
-            
+
             if (_current == null)
             {
                 _current = Head;
