@@ -1,19 +1,30 @@
-﻿using DataStructures.LinkedList.SinglyLinkedList;
-using DataStructures.LinkedList.DoublyLinkedList;
-using System.Collections;
-using System.Threading.Channels;
+﻿using DataStructures.LinkedList.DoublyLinkedList;
+using DataStructures.LinkedList.SinglyLinkedList;
+using DataStructures.Stack;
 
+var int_set = new int[] { 1, 2, 3, 4 };
+var stack_1 = new DataStructures.Stack.Stack<int>();
+var stack_2 = new DataStructures.Stack.Stack<int>(StackType.LinkedList);
 
-var list = new DoublyLinkedList<char>(new List<char>() { 'a', 'b', 'c' });
-
-foreach (var item in list)
+foreach (var item in int_set)
 {
     Console.WriteLine(item);
+    stack_1.Push(item);
+    stack_2.Push(item);
 }
 
-Console.ReadKey();
+Console.WriteLine("Peek");
+Console.WriteLine($"{stack_1.Peek()}");
+Console.WriteLine($"{stack_2.Peek()}");
 
+Console.WriteLine("\nPop");
+Console.WriteLine($"{stack_1.Pop()}");
+Console.WriteLine($"{stack_2.Pop()}");
+stack_1.Clear();
 
+Console.WriteLine("\nCount");
+Console.WriteLine($"{stack_1.Count}");
+Console.WriteLine($"{stack_2.Count}");
 #region functions
 
 
@@ -27,7 +38,7 @@ void print<T>(IEnumerable<T> list, string sep = " ")
 static void SinglyLinkedListApp002()
 {
     var arr = new char[] { 'a', 'b', 'c' };
-    var arr_list = new ArrayList(arr);
+    var arr_list = new System.Collections.ArrayList(arr);
     var list = new List<char>(arr);
     var c_linked_list = new LinkedList<char>(arr);
 
