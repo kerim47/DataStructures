@@ -34,7 +34,7 @@ Yığın veri yapısı, son giren ilk çıkar (LIFO - Last In, First Out) mantı
 
 Kuyruk veri yapısı, ilk giren ilk çıkar (FIFO - First In, First Out) mantığına dayanır. Bu bölümde kuyruk veri yapısıyla ilgili yöntemler ve açıklamalar yer almaktadır.
 
-![Bağlantıya Git](https://github.com/kerim47/DataStructures/blob/main/CSharp/VeriYapilari/DataStructures/pictures/)
+![Bağlantıya Git](https://github.com/kerim47/DataStructures/blob/main/CSharp/VeriYapilari/DataStructures/pictures/Queue.png)
 
 ## Ağaçlar (Trees)
 
