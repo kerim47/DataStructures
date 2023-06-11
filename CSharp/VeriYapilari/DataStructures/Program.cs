@@ -1,30 +1,35 @@
 ﻿using DataStructures.LinkedList.DoublyLinkedList;
 using DataStructures.LinkedList.SinglyLinkedList;
+using DataStructures.Queue;
 using DataStructures.Stack;
+//using System.Collections.Concurrent;
 
-var int_set = new int[] { 1, 2, 3, 4 };
-var stack_1 = new DataStructures.Stack.Stack<int>();
-var stack_2 = new DataStructures.Stack.Stack<int>(StackType.LinkedList);
+var numbers = new int[] { 1, 2, 3};
 
-foreach (var item in int_set)
+var q_1 = new DataStructures.Queue.Queue<int>();
+var q_2 = new DataStructures.Queue.Queue<int>(QueueType.LinkedList);
+
+foreach (var item in numbers)
 {
     Console.WriteLine(item);
-    stack_1.Push(item);
-    stack_2.Push(item);
+    q_1.EnQueue(item); 
+    q_2.EnQueue(item);
 }
 
-Console.WriteLine("Peek");
-Console.WriteLine($"{stack_1.Peek()}");
-Console.WriteLine($"{stack_2.Peek()}");
+Console.WriteLine($"q1 Count : {q_1.Count}");
+Console.WriteLine($"q2 Count : {q_2.Count}");
 
-Console.WriteLine("\nPop");
-Console.WriteLine($"{stack_1.Pop()}");
-Console.WriteLine($"{stack_2.Pop()}");
-stack_1.Clear();
 
-Console.WriteLine("\nCount");
-Console.WriteLine($"{stack_1.Count}");
-Console.WriteLine($"{stack_2.Count}");
+Console.WriteLine($"q1 DeQueue: {q_1.DeQueue()}");
+Console.WriteLine($"q2 DeQueue: {q_2.DeQueue()}");
+ 
+Console.WriteLine($"q1 Count : {q_1.Count}");
+Console.WriteLine($"q2 Count : {q_2.Count}");
+
+
+Console.WriteLine($"q1 Last Value : {q_1.Peek()}");
+Console.WriteLine($"q2 Last Value : {q_2.Peek()}");
+
 #region functions
 
 
@@ -162,6 +167,33 @@ static void DoublyLinkedListApp001()
 
     //liste_1.AddAfter(liste_1.Head.Next, new DoublyLinkedListNode<int>(12));
     liste_1.AddBefore(liste_1.Head, new DoublyLinkedListNode<int>(12));
+}
+
+static void Stack()
+{
+    var int_set = new int[] { 1, 2, 3, 4 };
+    var stack_1 = new DataStructures.Stack.Stack<int>();
+    var stack_2 = new DataStructures.Stack.Stack<int>(StackType.LinkedList);
+
+    foreach (var item in int_set)
+    {
+        Console.WriteLine(item);
+        stack_1.Push(item);
+        stack_2.Push(item);
+    }
+
+    Console.WriteLine("Peek");
+    Console.WriteLine($"{stack_1.Peek()}");
+    Console.WriteLine($"{stack_2.Peek()}");
+
+    Console.WriteLine("\nPop");
+    Console.WriteLine($"{stack_1.Pop()}");
+    Console.WriteLine($"{stack_2.Pop()}");
+    stack_1.Clear();
+
+    Console.WriteLine("\nCount");
+    Console.WriteLine($"{stack_1.Count}");
+    Console.WriteLine($"{stack_2.Count}");
 }
 
 #endregion
