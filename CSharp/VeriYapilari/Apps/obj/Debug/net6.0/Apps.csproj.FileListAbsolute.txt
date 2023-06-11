@@ -1,0 +1,15 @@
+C:\Users\16008\source\repos\DataStructures\Apps\bin\Debug\net6.0\Apps.exe
+C:\Users\16008\source\repos\DataStructures\Apps\bin\Debug\net6.0\Apps.deps.json
+C:\Users\16008\source\repos\DataStructures\Apps\bin\Debug\net6.0\Apps.runtimeconfig.json
+C:\Users\16008\source\repos\DataStructures\Apps\bin\Debug\net6.0\Apps.dll
+C:\Users\16008\source\repos\DataStructures\Apps\bin\Debug\net6.0\Apps.pdb
+C:\Users\16008\source\repos\DataStructures\Apps\obj\Debug\net6.0\Apps.csproj.AssemblyReference.cache
+C:\Users\16008\source\repos\DataStructures\Apps\obj\Debug\net6.0\Apps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16008\source\repos\DataStructures\Apps\obj\Debug\net6.0\Apps.AssemblyInfoInputs.cache
+C:\Users\16008\source\repos\DataStructures\Apps\obj\Debug\net6.0\Apps.AssemblyInfo.cs
+C:\Users\16008\source\repos\DataStructures\Apps\obj\Debug\net6.0\Apps.csproj.CoreCompileInputs.cache
+C:\Users\16008\source\repos\DataStructures\Apps\obj\Debug\net6.0\Apps.dll
+C:\Users\16008\source\repos\DataStructures\Apps\obj\Debug\net6.0\refint\Apps.dll
+C:\Users\16008\source\repos\DataStructures\Apps\obj\Debug\net6.0\Apps.pdb
+C:\Users\16008\source\repos\DataStructures\Apps\obj\Debug\net6.0\Apps.genruntimeconfig.cache
+C:\Users\16008\source\repos\DataStructures\Apps\obj\Debug\net6.0\ref\Apps.dll

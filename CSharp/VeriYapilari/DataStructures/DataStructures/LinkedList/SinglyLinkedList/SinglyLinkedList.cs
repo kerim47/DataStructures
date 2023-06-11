@@ -6,6 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using DataStructures.LinkedList;
+using DataStructures.LinkedList.SinglyLinkedList;
 
 // Tek bagli listede kullanilan methodlar kullanilmistir.
 
