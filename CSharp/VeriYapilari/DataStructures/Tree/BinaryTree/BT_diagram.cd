@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DataStructures.Tree.BinaryTree.BinaryTree&lt;T&gt;">
+    <Position X="3.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACiACAAgAAAAQhEAACKAEAAAAAAAIgAAADAAAAAA=</HashCode>
+      <FileName>Tree\BinaryTree\BinaryTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Tree.BinaryTree.Node&lt;T&gt;">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAACACgAAAAAAA=</HashCode>
+      <FileName>Tree\BinaryTree\Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataStructures.Tree.BST.BST&lt;T&gt;">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAADAAAAAABAAAAAAAAAAEAEAAABAAAAA=</HashCode>
+      <FileName>Tree\BST\BST.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataStructures.Tree.BST.BSTEnumerator&lt;T&gt;">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABAAAAACAAAAAAAAAAAAAoAAAAAAAAAY=</HashCode>
+      <FileName>Tree\BST\BSTEnumerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

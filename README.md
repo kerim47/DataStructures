@@ -40,7 +40,7 @@ Kuyruk veri yapısı, ilk giren ilk çıkar (FIFO - First In, First Out) mantı�
 
 Ağaçlar, hiyerarşik bir veri yapısıdır ve bir ana düğüm (kök) etrafında alt düğümlerden oluşur. Bu bölümde ağaç veri yapısıyla ilgili yöntemler ve açıklamalar yer almaktadır.
 
-![Bağlantıya Git](https://github.com/kerim47/DataStructures/blob/main/CSharp/VeriYapilari/DataStructures/pictures/)
+![Bağlantıya Git](https://github.com/kerim47/DataStructures/blob/main/CSharp/VeriYapilari/DataStructures/pictures/BinarySearchTree.png)
 
 ## Graf (Graph)
 
