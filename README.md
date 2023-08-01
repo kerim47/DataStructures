@@ -9,7 +9,7 @@ Bu repository, C ve C# programlama dillerinde veri yapıları ile ilgili çalı�
 - [Yığın (Stack)](#yığın-stack)
 - [Kuyruk (Queue)](#kuyruk-queue)
 - [Ağaçlar (Trees)](#ağaçlar-trees)
-- [Graf (Graph)](#graf-graph)
+- [Ayrık Set (Disjoint Set)](#ayrık-set-disjoint-set)
 
 ## Dizi (Array)
 
@@ -41,6 +41,12 @@ Kuyruk veri yapısı, ilk giren ilk çıkar (FIFO - First In, First Out) mantı�
 Ağaçlar, hiyerarşik bir veri yapısıdır ve bir ana düğüm (kök) etrafında alt düğümlerden oluşur. Bu bölümde ağaç veri yapısıyla ilgili yöntemler ve açıklamalar yer almaktadır.
 
 ![Bağlantıya Git](https://github.com/kerim47/DataStructures/blob/main/CSharp/VeriYapilari/DataStructures/pictures/BinarySearchTree.png)
+
+## Ayrık Set (Disjoint Set)
+
+Ayrık set veri yapısı, elemanları disjunkt (ayrık) kümeler halinde saklamak ve bu kümeler üzerinde birleştirme ve sorgulama işlemleri yapmak için kullanılır. Bu bölümde ayrık set veri yapısıyla ilgili yöntemler ve açıklamalar yer almaktadır.
+
+![Bağlantıya Git](https://github.com/kerim47/DataStructures/blob/main/CSharp/VeriYapilari/DataStructures/pictures/DisjointSet.png)
 
 ## Graf (Graph)
 
