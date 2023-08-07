@@ -2,6 +2,12 @@
 
 Bu repository, C ve C# programlama dillerinde veri yapıları ile ilgili çalışmaları içermektedir. Veri yapılarındaki yöntemlerin ve algoritmaların kullanımı ve açıklamaları burada detaylı bir şekilde sunulmaktadır.
 
+### İndirme
+
+```bash
+git clone https://github.com/kerim47/DataStructures.git
+```
+
 ## İçerik
 
 - [Dizi (Array)](#dizi-array)
@@ -52,7 +58,8 @@ Ayrık set veri yapısı, elemanları disjunkt (ayrık) kümeler halinde saklama
 
 Graf veri yapısı, düğümlerin birbirine kenarlarla bağlı olduğu bir yapıdır. Bu bölümde graf veri yapısıyla ilgili yöntemler ve açıklamalar yer almaktadır.
 
-![Bağlantıya Git](https://github.com/kerim47/DataStructures/blob/main/CSharp/VeriYapilari/DataStructures/pictures/)
+![Bağlantıya Git](https://github.com/kerim47/DataStructures/blob/main/CSharp/VeriYapilari/DataStructures/pictures/Graph_Interface.png)
+![Bağlantıya Git](https://github.com/kerim47/DataStructures/blob/main/CSharp/VeriYapilari/DataStructures/pictures/Graph_Classes.png)
 
 ---
 

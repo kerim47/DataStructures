@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DataStructures.Graph.AdjancencySet.Graph&lt;T&gt;">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="DataStructures.Graph.AdjancencySet.Graph&lt;T&gt;.GraphVertex&lt;T&gt;">
+        <TypeIdentifier>
+          <NewMemberFileName>Graph\AdjancencySet\Graph.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEgAEAACEAIBgAiQAAQAQBAAAQACAEAABBIBAAABA=</HashCode>
+      <FileName>Graph\AdjancencySet\Graph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataStructures.Graph.Edge&lt;T, TW&gt;">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAACAAAAAggAAAAAAACAA=</HashCode>
+      <FileName>Graph\Edge.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataStructures.Graph.AdjancencySet.WeightedGraph&lt;T, TW&gt;">
+    <Position X="3.5" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="DataStructures.Graph.AdjancencySet.WeightedGraph&lt;T, TW&gt;.WeightedGraphVertex&lt;T, TW&gt;">
+        <TypeIdentifier>
+          <NewMemberFileName>Graph\AdjancencySet\WeightedGraph.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEgAEAAAEAIBgAiQAAAAQBAAAQACAEAABBAAAAABA=</HashCode>
+      <FileName>Graph\AdjancencySet\WeightedGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.362" />
+  </Class>
+  <Class Name="DataStructures.Graph.AdjancencySet.DiGraph&lt;T&gt;">
+    <Position X="8.5" Y="0.5" Width="2.75" />
+    <NestedTypes>
+      <Class Name="DataStructures.Graph.AdjancencySet.DiGraph&lt;T&gt;.DiGraphVertex&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Graph\AdjancencySet\DiGraph.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEgAEAASEAIBgAiQAAQAQBAAAQACAEAABBIBAAABA=</HashCode>
+      <FileName>Graph\AdjancencySet\DiGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataStructures.Graph.DiEdge&lt;T, TW&gt;">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAEAAAAAAAAACAAAAAggAAAAAAACAA=</HashCode>
+      <FileName>Graph\Edge.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DataStructures.Graph.AdjancencySet.WeightedDiGraph&lt;T, TW&gt;">
+    <Position X="11.5" Y="0.5" Width="2.25" />
+    <NestedTypes>
+      <Class Name="DataStructures.Graph.AdjancencySet.WeightedDiGraph&lt;T, TW&gt;.WeightedDiGraphVertex&lt;T, TW&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Graph\AdjancencySet\WeightedDiGraph.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEgAEAAQEAIBgAiQAAAAQBAAAQACAEAABBIBAAABA=</HashCode>
+      <FileName>Graph\AdjancencySet\WeightedDiGraph.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DataStructures.Graph.IGraph&lt;T&gt;">
+    <Position X="21.25" Y="11" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAEAAAEAIAgAAAAAAAQBAAAAACAAAABBAAAAABA=</HashCode>
+      <FileName>Graph\IGraph.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataStructures.Graph.IGraphVertex&lt;T&gt;">
+    <Position X="19.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Graph\IGraph.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataStructures.Graph.IDiGraph&lt;T&gt;" Collapsed="true">
+    <Position X="22.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAEAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graph\IGraph.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataStructures.Graph.IDiGraphVertex&lt;T&gt;" Collapsed="true">
+    <Position X="19.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAoAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Graph\IGraph.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataStructures.Graph.IDiEdge&lt;T&gt;" Collapsed="true">
+    <Position X="17.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Graph\IGraph.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataStructures.Graph.IEdge&lt;T&gt;" Collapsed="true">
+    <Position X="17.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAgAAAAAAACAA=</HashCode>
+      <FileName>Graph\IGraph.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
